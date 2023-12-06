@@ -26,26 +26,49 @@ To visualize various variables influencing insurance charges in US.
 # Basic Questions:
 
 how do you identify variables that are normally distributed? which one of the variables in insurance dataset is/are normally distributed?
+
 how any females and males are present in this dataset?
+
 What are the mean and median ages of enrollees in this case study?
+
 What is the median number of children in this case study?
+
 is there a difference between bmi mean and median?
+
 Key business questions to be answered and visualized:
 
+
 Can you identify variables that are highly correlated ?
+
 What region incurred the highest (& least) insurance charges?
+
 Do smokers incur more charges?
-is there a statistical difference between average charges incurred by smoker and non-smokers look into shapiro test https://www.statology.org/shapiro-wilk-test-python/, t-test https://www.statology.org/pandas-t-test/ and Mann whitney test https://www.statology.org/mann-whitney-u-test-python/
-is there a statistical difference between age of various enrollee insurance plan ? look into : https://www.statology.org/kruskal-wallis-test-python/ & https://www.statology.org/one-way-anova-python/
+
+is there a statistical difference between average charges incurred by smoker and non-smokers 
+
+- look into shapiro test https://www.statology.org/shapiro-wilk-test-python/, t-test https://www.statology.org/pandas-t-test/ and Mann whitney test https://www.statology.org/mann-whitney-u-test-python/
+
+is there a statistical difference between age of various enrollee insurance plan ? 
+
+- look into : https://www.statology.org/kruskal-wallis-test-python/ & https://www.statology.org/one-way-anova-python/
+
 # Dataset:
 enrolleeID: unique identifier of enrollees
+
 age: age of enrollees
+
 gender: gender of enrollee (M or F)
+
 bmi: body mass index of enrollees
+
 children: Number of children by enrollees
+
 smoker: Is the enrollee a smoker (yes or no)
+
 region: geographical location of enrollees
+
 charges: charges in US$ .
+
 plan: insurance plan (bronze, silver, gold, platinum)
 
 # Scripts
