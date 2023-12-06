@@ -50,4 +50,5 @@ plan: insurance plan (bronze, silver, gold, platinum)
 
 # Scripts
 project1_insurance_new.ipynb  - Interactive python script
+
 project1_insurance_new.py 
